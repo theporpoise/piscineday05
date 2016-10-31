@@ -6,7 +6,7 @@
 /*   By: mgould <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/31 12:35:10 by mgould            #+#    #+#             */
-/*   Updated: 2016/10/31 15:11:32 by mgould           ###   ########.fr       */
+/*   Updated: 2016/10/31 15:12:28 by mgould           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,8 @@ char	*ft_strcpy(char *dest, char *src)
 			dest[i] = '\0';
 		}
 		else
-		dest[i] = src[i];
+			dest[i] = src[i];
 		i++;
 	}
-	
 	return (dest);
 }
